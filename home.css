@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: url("img/background.jpg");
+}
+
+.nav{
+    display: flex;
+}
+.left1{
+    /* border: 2px solid green; */
+}
+.left1 img{
+    height: 60px;
+    width: 60px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.left1 img:hover{
+    background-color: rgb(34, 11, 136);
+}
+.mid1{
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 300px;
+}
+.mid1 ul{
+    display:flex;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    padding: 20px;
+    /* margin: 20px; */
+    text-decoration: none;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(255, 94, 0);
+    /* background-color: blueviolet; */
+    border-radius: 15px;
+}
+.right1{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    /* border: 2px solid green; */
+}
+.btn1{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #0074D9;
+}
+
+.search input[type=text]{
+    width:200px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+
+
+}
+ 
+.search{
+    float:right;
+    padding-left: 20px;
+
+}
+ 
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 50px;
+    border-radius: 15px;
+}
+.welcome{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: antiquewhite;
+    padding-bottom: 20px;
+}
+.container {
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    width: 50%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
